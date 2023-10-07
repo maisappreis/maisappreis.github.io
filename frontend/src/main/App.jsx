@@ -4,6 +4,7 @@ import React from 'react';
 import "font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import NavbarWhite from '../components/navbar/NavbarWhite';
 import NavbarOverlaid from '../components/navbar/NavbarOverlaid';
 import Home from "../components/home/Home";
 import Footer from "../components/footer/Footer";
@@ -19,7 +20,8 @@ function App(props) {
     <React.Fragment>
       <div className="app">
         <header>
-          <NavbarOverlaid />
+          <NavbarWhite />
+          {/* <NavbarOverlaid /> */}
           <Home />
         </header>
         <main>
