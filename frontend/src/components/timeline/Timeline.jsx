@@ -1,5 +1,5 @@
 import React from "react";
-import "./Curriculum.css";
+import "./Timeline.css";
 
 import bgProjects from "../../assets/bg-projects.jpg";
 

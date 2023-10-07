@@ -1,11 +1,11 @@
 import React from "react";
 import "../../main/App.css";
 import bgProjects from "../../assets/bg-projects.jpg";
-import "./Projects.css";
+import "./Portfolio.css";
 
 import lampPic from "../../assets/code-lamp-png.png";
 
-const Projects = props =>
+const Portfolio = props =>
     <section id="projetos">
         <div className="projects-area">
             <img id="bg-image" src={bgProjects} alt="Purple background" />
@@ -28,4 +28,4 @@ const Projects = props =>
         </div>
     </section>
 
-export default Projects;
+export default Portfolio;

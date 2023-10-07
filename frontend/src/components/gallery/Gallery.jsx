@@ -1,6 +1,6 @@
 import React from "react";
 import "../../main/App.css";
-import "./Knowledge.css";
+import "./Gallery.css";
 
 import angular from "../../assets/angular.jpg";
 import htmlCss from "../../assets/htmlCss.jpg";
@@ -14,7 +14,7 @@ import vue from "../../assets/vue.jpg";
 import node from "../../assets/node.jpg";
 import laptop from "../../assets/bg-laptop.jpg";
 
-const Knowledge = props =>
+const Gallery = props =>
     <React.Fragment>
         <div className="knowledge-area" id="conhecimentos">
             <div className="bg-fixed-img">
@@ -58,7 +58,7 @@ const Knowledge = props =>
         </div>
     </React.Fragment>
 
-export default Knowledge;
+export default Gallery;
 
 // responsividade: col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4
 // className="img-fluid"

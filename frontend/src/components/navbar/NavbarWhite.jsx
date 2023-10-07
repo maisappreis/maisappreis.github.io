@@ -3,7 +3,7 @@ import './Navbar.css';
 import "../../main/App.css";
 
 
-function Navbar() {
+function NavbarWhite() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -12,6 +12,7 @@ function Navbar() {
 
   const onMouseEnter = () => {
     if (window.innerWidth < 800) {
+      console.log('dropdown', dropdown)
       setDropdown(false);
     } else {
       setDropdown(true);
@@ -63,4 +64,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarWhite;

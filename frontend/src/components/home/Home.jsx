@@ -1,11 +1,11 @@
 import React from "react";
-import "./Header.css";
+import "./Home.css";
 import "../../main/App.css";
 import ImgHome from "./ImgHome";
 import backButton from "../../assets/back-btn.png";
 
-const Header = props =>
-    <header className="header-area" id="home">
+const Home = props =>
+    <div className="header-area" id="home">
         <section className="header-intro">
             <ImgHome className="img" />
             <div className="header-content">
@@ -22,6 +22,6 @@ const Header = props =>
             <img src={backButton} alt="Back button" />
         </a>
         </button>
-    </header>
+    </div>
 
-export default Header;
+export default Home;
