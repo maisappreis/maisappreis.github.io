@@ -1,0 +1,88 @@
+.contacts-area {
+    font-family: 'Marcellus', serif, sans-serif;
+    width: 100vw;
+}
+
+.contact-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 30px 0 8px;
+    position: relative;
+}
+
+.contact-subtitle::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    width: 140px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: #f6b0ff;
+    z-index: -1;
+  }
+
+.contacts-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+
+.email {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+
+.whatsapp {
+    width: 500px;    
+    text-align: center;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+
+#gmail {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 0.3em #f8c3ff, 0 0 0.3em #f9cbff, 0 0 #fad6ff;
+}
+
+#phone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 0.3em #ffffff, 0 0 0.3em #ffffff, 0 0 #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    #gmail { font-size: 5.5vw }
+}
