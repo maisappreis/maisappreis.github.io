@@ -3,6 +3,33 @@ import "./Timeline.css";
 
 import bgProjects from "../../assets/bg-projects.jpg";
 
+// WORK EXPERIENCE
+
+// Web Developer - 09/2022 - Present
+// Morning Star Consulting - Remote - Rio de Janeiro, RJ - Brazil
+// Design and implementation of user-friendly screens in web applications using Vue.js framework in the front-end.
+// Development of APIs on the backend using the Django framework to handle front-end requests.
+// Diagnose, resolve bugs, test and refactor web application codes.
+
+// Entrepreneur - 02/2018 - 09/2022
+// Axis 3D - 3D Printing Studio - Criciúma, SC - Brazil
+// Business administration, generating budgets, negotiating with customers and marketing activities. Also, 3D modeling and 3D printing.
+// Starting my first projects with JavaScript, HTML, CSS, Vue.js and React. Also learning SQL and Git.
+
+
+// EDUCATION
+
+// Microsoft Certified: Power BI Data Analyst Associate - 11/2023 (colocar link)
+
+// Lato Sensu in Data Analysis - 06/2022 - 02/2023
+// Faculdade Descomplica (Descomplica College)
+
+// Lato Sensu in Software Analysis and Development - 06/2022 - 01/2023
+// Faculdade Descomplica (Descomplica College)
+
+// Bachelor’s in Bussiness Administration - 08/2013 - 07/2017
+// Universidade do Estado de Santa Catarina (State University of Santa Catarina)
+
 const Curriculum = props =>
     <section id="curriculum">
         <div className="curriculum-area">

@@ -4,6 +4,12 @@ import "./Contacts.css";
 import email from "../../assets/email.jpg";
 import whatsapp from "../../assets/whatsapp.jpg";
 
+// ADICIONAR:
+
+// Criciúma, SC - Brazil
+// linkedin.com/in/maisa-pp-2303/
+// github.com/maisappreis
+
 const Contacts = props =>
     <div className="contacts-area container-fluid" id="contact">
         <h3 className="contact-subtitle">CONTACT</h3>
