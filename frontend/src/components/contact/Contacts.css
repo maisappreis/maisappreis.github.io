@@ -1,6 +1,7 @@
 .contacts-area {
     font-family: 'Marcellus', serif, sans-serif;
     width: 100vw;
+    margin-bottom: 80px;
 }
 
 .contact-subtitle {
@@ -33,56 +34,21 @@
     margin: 40px 0px;
 }
 
-.email {
+.contact-item {
+    display: flex;
+    justify-content: center;
     width: 500px;
     text-align: center;
-    margin-bottom: 20px;
-
-    position: relative;
+    height: 40px;
 }
 
-.whatsapp {
-    width: 500px;    
-    text-align: center;
-    margin-bottom: 20px;
-
-    position: relative;
-}
-
-#gmail {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    font-size: 30px;
+.text-item {
+    font-size: 25px;
     font-weight: bold;
-    color: black;
-    text-shadow: 0 0 0.3em #f8c3ff, 0 0 0.3em #f9cbff, 0 0 #fad6ff;
+    margin-left: 15px;
 }
 
-#phone {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
-    text-shadow: 0 0 0.3em #ffffff, 0 0 0.3em #ffffff, 0 0 #ffffff;
-}
 
 @media screen and (max-width: 600px) {
-    #gmail { font-size: 5.5vw }
+    .text-item { font-size: 5.5vw }
 }
