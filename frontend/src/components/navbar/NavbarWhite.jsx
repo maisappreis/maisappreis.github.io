@@ -20,16 +20,16 @@ function NavbarWhite() {
           <Logo />
           <ul className={click ? 'nav-menu just-end active' : 'nav-menu just-end'}>
             <li className='nav-item'>
-              <a href="#home" className='font-black' onClick={closeMobileMenu}>INÍCIO</a>
+              <a href="#home" className='font-black' onClick={closeMobileMenu}>HOME</a>
             </li>
             <li className='nav-item'>
-              <a href="#portfolio" className='font-black' onClick={closeMobileMenu}>PORTIFÓLIO</a>
+              <a href="#portfolio" className='font-black' onClick={closeMobileMenu}>PORTFOLIO</a>
             </li>
             <li className='nav-item'>
-              <a href="#about" className='font-black' onClick={closeMobileMenu}>SOBRE</a>
+              <a href="#about" className='font-black' onClick={closeMobileMenu}>ABOUT</a>
             </li>
             <li className='nav-item'>
-              <a href="#contact" className='font-black' onClick={closeMobileMenu}>CONTATO</a>
+              <a href="#contact" className='font-black' onClick={closeMobileMenu}>CONTACT</a>
             </li>
             <li>
             </li>

@@ -21,7 +21,7 @@ const Gallery = props =>
                 <img src={laptop} alt="Laptop made of codes" />
             </div>
             <div>
-                <h3 className="knowledge-subtitle">MEUS CONHECIMENTOS</h3>
+                <h3 className="knowledge-subtitle">GALLERY</h3>
             </div>
             <div className="knowledge-galery">
                 <div className="item-galery w-2">

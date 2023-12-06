@@ -10,7 +10,7 @@ import Home from "../components/home/Home";
 import Footer from "../components/footer/Footer";
 import Gallery from "../components/gallery/Gallery";
 import About from "../components/about/About";
-import Timeline from "../components/timeline/Timeline";
+// import Timeline from "../components/timeline/Timeline";
 import Portfolio from "../components/portfolio/Portfolio";
 import Contacts from "../components/contact/Contacts";
 
@@ -27,7 +27,7 @@ function App(props) {
         <main>
           <Gallery />
           <About />
-          <Timeline />
+          {/* <Timeline /> */}
           <Portfolio />
           <Contacts />
         </main>

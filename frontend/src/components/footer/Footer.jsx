@@ -6,7 +6,7 @@ import "../../main/App.css";
 const Footer = props =>
     <footer className="footer-area">
         <span>
-            Desenvolvido com <i className="fa fa-heart heard"></i> por <i id="maisa" className="heard">Maisa</i>.
+            Developed with <i className="fa fa-heart heard"></i> by <i id="maisa" className="heard">Maisa</i>.
         </span>
     </footer>
 

@@ -6,12 +6,12 @@ import "./Portfolio.css";
 import lampPic from "../../assets/code-lamp-png.png";
 
 const Portfolio = props =>
-    <section id="projetos">
+    <section id="portfolio">
         <div className="projects-area">
             <img id="bg-image" src={bgProjects} alt="Purple background" />
             <div className="projects-overlay">
                 <div className="projects-subtitle">
-                    <h3>MEUS PROJETOS</h3>
+                    <h3>PORTFOLIO</h3>
                 </div>
                 <div className="projects-flex">
                     <div id="proj-item">
