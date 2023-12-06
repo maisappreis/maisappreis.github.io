@@ -1,7 +1,7 @@
 import React from "react";
 import "../../main/App.css";
 import "./Portfolio.css";
-import lampPic from "../../assets/code-lamp-png.png";
+import lampPic from "../../assets/code-lamp.png";
 
 const Portfolio = props =>
     <section id="portfolio">

@@ -1,14 +1,14 @@
 import React from "react";
 import "../../main/App.css";
 import "./About.css";
-import codeEye from "../../assets/code-eye2.jpg";
-import codeLamp from "../../assets/code-lamp.jpg";
+import codeLamp from "../../assets/code-lamp.png";
 
 const About = props =>
     <div className="about-area container-fluid" id="about">
         <div className="about-flex row">
             <div className="about about-item">
                 <h3 className="about-subtitle">ABOUT</h3>
+                <hr className="hr-line"/>
                 <p className="about-text">
                     Innovative and task-driven professional with 2 years of experience in web
                     design and development. I have solid knowledge of JavaScript and
@@ -19,21 +19,8 @@ const About = props =>
                     and finally, I discovered and fell in love with software development.
                 </p>
             </div>
-            <div className="about-item less-height">
-                <img src={codeEye} alt="Codes in the eyes" />
-            </div>
-        </div>
-        <div className="about-flex row">
-            <div className="about-item display-none">
-                <img src={codeLamp} alt="A lamp with codes inside" />
-            </div>
-            <div className="profile about-item" >
-                <h3 className="profile-subtitle">PROFILE</h3>
-                <ul className="profile-text">
-                    <li><b className="purple-text">Name:</b> Maisa Pierini Preis</li>
-                    <li><b className="purple-text">Age:</b> 28</li>
-                </ul>
-            </div>
+            <img className="img-item" src={codeLamp} alt="Code Lamp" />
+            <div className="about-item-right"></div>
         </div>
     </div>
 
