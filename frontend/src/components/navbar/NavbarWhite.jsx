@@ -26,6 +26,9 @@ function NavbarWhite() {
               <a href="#portfolio" className='font-black' onClick={closeMobileMenu}>PORTFOLIO</a>
             </li>
             <li className='nav-item'>
+              <a href="#skills" className='font-black' onClick={closeMobileMenu}>SKILLS</a>
+            </li>
+            <li className='nav-item'>
               <a href="#about" className='font-black' onClick={closeMobileMenu}>ABOUT</a>
             </li>
             <li className='nav-item'>

@@ -1,8 +1,4 @@
 
-.menu-area {
-  grid-area: navegation;
-}
-
 .header-area {
   grid-area: header;
 }
@@ -11,8 +7,12 @@
   grid-area: gallery;
 }
 
-.project-area {
-  grid-area: project;
+.portfolio-area {
+  grid-area: portfolio;
+}
+
+.skills-area {
+  grid-area: skills;
 }
 
 .about-area {
@@ -29,7 +29,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 'header' 'gallery' 'about' 'project' 'contact' 'footer';
+  grid-template-rows: 'header' 'portfolio' 'skills' 'about' 'contact' 'footer';
 }
 
 

@@ -16,7 +16,7 @@ import laptop from "../../assets/bg-laptop.jpg";
 
 const Gallery = props =>
     <React.Fragment>
-        <div id="gallery" className="knowledge-area">
+        <div id="gallery" className="gallery-area">
             <div className="bg-fixed-img">
                 <img src={laptop} alt="Laptop made of codes" />
             </div>
