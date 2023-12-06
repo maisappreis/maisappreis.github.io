@@ -11,9 +11,9 @@ const Home = props =>
         <section className="header-intro">
             <ImgHome className="img" />
             <div className="header-content">
-                <h1 className="title">Eleve a experiência da sua marca!</h1>
+                <h1 className="title">For a great web experience!</h1>
                 <hr className="hr-line"/>
-                <h4 className="subtitle-1">TENHA UM SITE QUE VENDE</h4>
+                <h4 className="subtitle-1">WEB DEVELOPER</h4>
             </div>
         </section>
         {/* <UpButton /> */}

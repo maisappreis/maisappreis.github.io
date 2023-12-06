@@ -39,16 +39,16 @@ function NavbarOverlaid() {
           </li>
           {/* <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}> */}
           <li className="nav-item">
-            <a href="#portfolio" className="font-white" onClick={closeMobileMenu}>CONHECIMENTOS</a>
+            <a href="#portfolio" className="font-white" onClick={closeMobileMenu}>GALLERY</a>
           </li>
           <li className="nav-item">
-            <a href="#about" className="font-white" onClick={closeMobileMenu}>SOBRE</a>
+            <a href="#about" className="font-white" onClick={closeMobileMenu}>ABOUT</a>
           </li>
           <li className="nav-item">
             <a href="#curriculum" className="font-white" onClick={closeMobileMenu}>CURRICULUM</a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="font-white" onClick={closeMobileMenu}>CONTATO</a>
+            <a href="#contact" className="font-white" onClick={closeMobileMenu}>CONTACT</a>
           </li>
           <li>
           </li>
