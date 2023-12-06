@@ -2,26 +2,22 @@ import React from "react";
 import "./Home.css";
 import "../../main/App.css";
 import ImgHome from "./ImgHome";
-import backButton from "../../assets/back-btn.png";
+// import UpButton from "../button/UpButton";
+import ColorButton from "../button/ColorButton";
+
 
 const Home = props =>
-    <div className="header-area" id="home">
+    <div id="home" className="header-area">
         <section className="header-intro">
             <ImgHome className="img" />
             <div className="header-content">
-                <h1 className="title">Maisa</h1>
-                <h4 className="subtitle-1">FULL-STACK DEVELOPER</h4>
-                <h4 className="subtitle-2">PORTIFÓLIO</h4>
+                <h1 className="title">Eleve a experiência da sua marca!</h1>
+                <hr className="hr-line"/>
+                <h4 className="subtitle-1">TENHA UM SITE QUE VENDE</h4>
             </div>
         </section>
-        <div className="welcome">
-            Bem-vindo ao meu primeiro site...
-        </div>
-        <button className="back-btn">
-        <a href="#home">
-            <img src={backButton} alt="Back button" />
-        </a>
-        </button>
+        {/* <UpButton /> */}
+        <ColorButton />
     </div>
 
 export default Home;

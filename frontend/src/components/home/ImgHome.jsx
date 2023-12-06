@@ -1,9 +1,11 @@
 import React from "react";
-import photoHome from "../../assets/bg-lamp.jpg";
+import imgHome from "../../assets/bg-dark.jpg";
+import "./Home.css";
+
 
 const ImgHome = props => 
     <div className="img-home">
-        <img className="img-fluid" src={photoHome} alt="codes in a black background" />
+        <img src={imgHome} alt="codes in a black background" />
     </div>
 
 export default ImgHome;

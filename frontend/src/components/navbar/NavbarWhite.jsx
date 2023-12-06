@@ -23,13 +23,13 @@ function NavbarWhite() {
               <a href="#home" className='font-black' onClick={closeMobileMenu}>INÍCIO</a>
             </li>
             <li className='nav-item'>
-              <a href="#conhecimentos" className='font-black' onClick={closeMobileMenu}>PORTIFÓLIO</a>
+              <a href="#portfolio" className='font-black' onClick={closeMobileMenu}>PORTIFÓLIO</a>
             </li>
             <li className='nav-item'>
-              <a href="#sobre" className='font-black' onClick={closeMobileMenu}>SOBRE</a>
+              <a href="#about" className='font-black' onClick={closeMobileMenu}>SOBRE</a>
             </li>
             <li className='nav-item'>
-              <a href="#contato" className='font-black' onClick={closeMobileMenu}>CONTATO</a>
+              <a href="#contact" className='font-black' onClick={closeMobileMenu}>CONTATO</a>
             </li>
             <li>
             </li>

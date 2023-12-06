@@ -1,0 +1,16 @@
+.up-button {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 8vh;
+    margin: 0px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 5;
+}
+
+@media screen and (max-width: 500px) {
+    .up-button { display: none; }
+}

@@ -1,6 +1,5 @@
 .header-area {
     color: white;
-    text-shadow: 0 0 0.3em #E100FF, 0 0 0.3em #E100FF, 0 0 #E100FF;
 }
 
 .header-intro {
@@ -9,37 +8,32 @@
     overflow: hidden;
 }
 
-.img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .header-content {
-    width: 80%;
-    height: 300px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-    margin: auto;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+
+    width: 70%;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .title {
-    font-size: 15vw;
-    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 0.3em #70007f, 0 0 0.3em #9800ac, 0 0 #9b04ae;
+    font-size: 7vw;
+    font-family: 'Young Serif', serif;
+    text-align: center;
 }
 
 .subtitle-1 {
     font-size: 2vw;
     font-family: 'Marcellus', serif, sans-serif;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .subtitle-2 {
@@ -47,41 +41,30 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-
-.welcome {
-    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 4vw;
-    box-shadow: 0 10px -50px white;
-    background-color: black;
-    padding: 30px 0px;
-    width: 100vw;
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.back-btn {
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    height: 8vh;
-    margin: 0px;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-
-    z-index: 5;
+.img-home {
+    height: 100vh;
 }
 
+.hr-line {
+    margin: auto;
+    width: 30vw;
+    border: 2px solid white;
+}
 
 @media screen and (max-width: 800px) {
     .subtitle-1 { font-size: 18px; }
     .subtitle-2 { font-size: 15px; }
-    .welcome { 
-        font-size: 25px;
-        padding: 10px 0px;
-     }
 }
 
-@media screen and (max-width: 500px) {
-    .back-btn { display: none; }
-}
+/*
+Fonte manuescrita:
+font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+Sombra nas letras:
+text-shadow: 0 0 0.3em #70007f, 0 0 0.3em #9800ac, 0 0 #9b04ae;
+*/

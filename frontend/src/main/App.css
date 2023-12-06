@@ -7,20 +7,20 @@
   grid-area: header;
 }
 
-.knowledge-area {
-  grid-area: knowledge;
+.gallery-area {
+  grid-area: gallery;
 }
 
-.projects-area {
-  grid-area: projects;
+.project-area {
+  grid-area: project;
 }
 
 .about-area {
   grid-area: about;
 }
 
-.contacts-area {
-  grid-area: contacts;
+.contact-area {
+  grid-area: contact;
 }
 
 .footer-area {
@@ -29,7 +29,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 'header' 'knowledge' 'about' 'projects' 'contacts' 'footer';
+  grid-template-rows: 'header' 'gallery' 'about' 'project' 'contact' 'footer';
 }
 
 

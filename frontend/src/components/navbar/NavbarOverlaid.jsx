@@ -29,26 +29,26 @@ function NavbarOverlaid() {
 
   return (
     <>
-      <nav className='posit-abs position font-marcellus'>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
+      <nav className="posit-abs position font-marcellus">
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fa fa-times" : "fa fa-bars"} />
         </div>
-        <ul className={click ? 'nav-menu just-center active' : 'nav-menu just-center'}>
-          <li className='nav-item'>
-            <a href="#home" className='font-white' onClick={closeMobileMenu}>HOME</a>
+        <ul className={click ? "nav-menu just-center active" : "nav-menu just-center"}>
+          <li className="nav-item">
+            <a href="#home" className="font-white" onClick={closeMobileMenu}>HOME</a>
           </li>
-          {/* <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}> */}
-          <li className='nav-item'>
-            <a href="#conhecimentos" className='font-white' onClick={closeMobileMenu}>CONHECIMENTOS</a>
+          {/* <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}> */}
+          <li className="nav-item">
+            <a href="#portfolio" className="font-white" onClick={closeMobileMenu}>CONHECIMENTOS</a>
           </li>
-          <li className='nav-item'>
-            <a href="#sobre" className='font-white' onClick={closeMobileMenu}>SOBRE</a>
+          <li className="nav-item">
+            <a href="#about" className="font-white" onClick={closeMobileMenu}>SOBRE</a>
           </li>
-          <li className='nav-item'>
-            <a href="#curriculum" className='font-white' onClick={closeMobileMenu}>CURRICULUM</a>
+          <li className="nav-item">
+            <a href="#curriculum" className="font-white" onClick={closeMobileMenu}>CURRICULUM</a>
           </li>
-          <li className='nav-item'>
-            <a href="#contato" className='font-white' onClick={closeMobileMenu}>CONTATO</a>
+          <li className="nav-item">
+            <a href="#contact" className="font-white" onClick={closeMobileMenu}>CONTATO</a>
           </li>
           <li>
           </li>
