@@ -5,7 +5,7 @@ import codeEye from "../../assets/code-eye2.jpg";
 import codeLamp from "../../assets/code-lamp.jpg";
 
 const About = props =>
-    <div className="about-area container-fluid" id="sobre">
+    <div className="about-area container-fluid" id="about">
         <div className="about-flex row">
             <div className="about about-item">
                 <h3 className="about-subtitle">SOBRE</h3>
