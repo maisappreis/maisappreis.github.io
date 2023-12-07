@@ -8,7 +8,7 @@ const About = props =>
         <div className="about-flex row">
             <div className="about about-item">
                 <h3 className="about-subtitle">ABOUT</h3>
-                <hr className="hr-line"/>
+                <hr className="line"/>
                 <p className="about-text">
                     Innovative and task-driven professional with 2 years of experience in web
                     design and development. I have solid knowledge of JavaScript and

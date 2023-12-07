@@ -19,12 +19,12 @@
 }
 
 .about-item-right {
-    background-color: #f6b0ff;
+    background-color: #e0bbca;
 }
 
 .about {
     padding: 80px 40px 80px 100px;
-    background-color: rgb(0, 0, 0);
+    background-color: #2F0036;
     color: rgb(233, 233, 233);
 }
 
@@ -38,10 +38,10 @@
     z-index: 1;
 }
 
-.hr-line {
+.line {
     width: 200px;
     border: 3px solid #f5abff;
-    margin-right: 15vw;
+    margin-left: 33vw;
 }
 
 .about-text {

@@ -76,7 +76,7 @@
 }
 
 .font-black:hover {
-    color: rgb(176, 106, 176);
+    color: #a0647c;
 }
 
 .menu-icon {
@@ -159,7 +159,7 @@
         display: table;
     }
 
-    .nav-links:hover {
+    .font-black:hover .font-white:hover {
         color: #E100FF;
     }
 }
