@@ -46,6 +46,13 @@
     font-size: 25px;
     font-weight: bold;
     margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.text-item:hover {
+    color: #a0647c;
+    cursor: pointer;
 }
 
 

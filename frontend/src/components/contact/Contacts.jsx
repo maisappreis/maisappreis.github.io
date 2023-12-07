@@ -13,7 +13,9 @@ const Contacts = props =>
         <div className="contacts-flex">
             <div className="contact-item col-xs-12 col-md-6">
                 <img src={email} alt="Email" />
-                <span className="text-item">maisapierinipreis@gmail.com</span>
+                <a href="mailto:maisapierinipreis@gmail.com" target="_blank" rel="noopener noreferrer" className="text-item">
+                    maisapierinipreis@gmail.com
+                </a>
             </div>
             <div className="contact-item col-xs-12 col-md-6">
                 <img src={phone} alt="Phone" />
@@ -23,11 +25,15 @@ const Contacts = props =>
         <div className="contacts-flex">
             <div className="contact-item col-xs-12 col-md-6">
                 <img src={linkedin} alt="Linkedin" />
-                <span className="text-item">linkedin.com/in/maisa-pp-2303/</span>
+                <a href="https://linkedin.com/in/maisa-pp-2303/" target="_blank" rel="noopener noreferrer" className="text-item">
+                    linkedin.com/in/maisa-pp-2303/
+                </a>
             </div>
             <div className="contact-item col-xs-12 col-md-6">
                 <img src={github} alt="Github" />
-                <span className="text-item">github.com/maisappreis</span>
+                <a href="https://github.com/maisappreis" target="_blank" rel="noopener noreferrer" className="text-item">
+                    github.com/maisappreis
+                </a>
             </div>
         </div>
     </div>
