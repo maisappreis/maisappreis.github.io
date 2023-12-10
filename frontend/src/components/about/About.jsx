@@ -5,7 +5,7 @@ import codeLamp from "../../assets/code-lamp.png";
 
 
 const About = props =>
-    <div className="about-area container-fluid" id="about">
+    <div className="about-area" id="about">
         <div className="about-flex row">
             <div className="about about-item">
                 <h3 className="about-subtitle">ABOUT ME</h3>

@@ -4,7 +4,7 @@ import "./Timeline.css";
 const Curriculum = props =>
     <section id="timeline">
         <div className="timeline-area">
-            <div className="workexperience-area">
+            <div className="workexperience-area" id="workexperience">
                 <h3 className="title">WORK EXPERIENCE</h3>
                 <div className="curriculum-grid">
                     <div className="curric-item border-right">
@@ -32,7 +32,7 @@ const Curriculum = props =>
                     </div>
                 </div>
             </div>
-            <div className="education-area">
+            <div className="education-area" id="education">
                 <h3 className="title">EDUCATION</h3>
                 <div className="curriculum-grid">
                     <div className="flex-end border-right">

@@ -8,8 +8,8 @@ const Portfolio = (props) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <section id="portfolio">
-            <div className="portfolio-area projects-area">
+        <section id="portfolio" className="portfolio-area">
+            <div className="projects-area">
                 <div className="projects-overlay">
                     <h3 className="projects-subtitle">PORTFOLIO</h3>
                     <div className="projects-flex">

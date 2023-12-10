@@ -2,8 +2,8 @@ import React from "react";
 import "./Button.css";
 
 const TransparentButton = props =>
-    <a className="link-area" href="#portfolio">
-        <button className="bnt transparent">
+    <a className="link-area" href="#workexperience">
+        <button className="bttn transparent">
             WORK EXPERIENCE 
         </button>
     </a>

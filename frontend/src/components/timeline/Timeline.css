@@ -1,4 +1,4 @@
-.curriculum-area {
+.timeline-area {
     position: relative;
     width: 100vw;
     font-family: 'Marcellus', serif, sans-serif;
@@ -11,11 +11,13 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    padding: 35px 0 55px 0;
 }
 
 .education-area {
     background-color: rgb(230, 230, 230);
     padding: 20px 50px;
+    padding: 35px 0 55px 0;
 }
 
 .title {
@@ -26,7 +28,6 @@
     padding: 30px 0 8px;
     position: relative;
     z-index: 1;
-    font-family: 'Marcellus', serif, sans-serif;
 }
 
 .title::before {

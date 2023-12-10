@@ -1,7 +1,3 @@
-.about-area {
-    padding: 0px;
-    margin-bottom: 30px;
-}
 
 .about-flex {
     display: grid;
@@ -16,6 +12,7 @@
     position: relative;
     margin: 0px;
     padding: 0px;
+    padding: 80px 0 55px 0;
 }
 
 .about-item-right {
@@ -23,7 +20,9 @@
 }
 
 .about {
-    padding: 80px 40px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: #2F0036;
     color: rgb(233, 233, 233);
 }
@@ -41,7 +40,7 @@
 .line {
     width: 200px;
     border: 3px solid #f5abff;
-    margin-left: 33vw;
+    margin-right: 15vw;
 }
 
 .about-text {
@@ -49,6 +48,7 @@
     text-align: right;
     font-size: 19px;
     margin: 25px 15vw 0 10vw;
+    z-index: 9; 
 }
 
 .img-item {
@@ -84,14 +84,14 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
     .about {
         padding: 50px 40px 50px 100px;
     }
-}
+} */
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .about {
         padding: 50px 40px 50px 50px;
     }
-}
+} */

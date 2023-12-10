@@ -2,16 +2,11 @@
     position: relative;
     display: flex;
     justify-content: center;
-    height: 20vh;
-    margin: 170px 0;
+    padding: 35px 0;
     font-family: 'Marcellus', serif, sans-serif;
 }
 
 .projects-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-
     display: flex;
     flex-direction: column;
     justify-content: center;

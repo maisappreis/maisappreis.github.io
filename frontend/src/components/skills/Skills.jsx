@@ -6,7 +6,7 @@ import ProgressBar from "../progress/ProgressBar";
 const Skills = () => {
   
     return (
-        <div className="skills-area container-fluid" id="skills">
+        <div className="skills-area" id="skills">
             <h3 className="skills-subtitle">SKILLS</h3>
             <div className="skills-row">
                 <div className="skills-column">
