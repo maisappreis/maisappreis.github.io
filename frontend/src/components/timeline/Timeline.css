@@ -126,6 +126,11 @@
     color: white;
 }
 
+.color:hover {
+    background-color: #792d4c;
+    color: white;
+}
+
 @media screen and (max-width: 1900px) {
     .curriculum-area {
         height: 160vh;

@@ -36,9 +36,19 @@
     background-color: white;   
 }
 
+.white:hover {
+    background-color: #c897aa;
+    border: 2px solid #c897aa;
+}
+
 .transparent {
     background-color: transparent;
     color: white;
+}
+
+.transparent:hover {
+    color: #c897aa;
+    border: 2px solid #c897aa;
 }
 
 @media screen and (max-width: 500px) {
