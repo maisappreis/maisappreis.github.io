@@ -2,12 +2,13 @@ import React from "react";
 import "../../main/App.css";
 import "./About.css";
 import codeLamp from "../../assets/code-lamp.png";
+import Timeline from "../timeline/Timeline.jsx";
 
 const About = props =>
     <div className="about-area container-fluid" id="about">
         <div className="about-flex row">
             <div className="about about-item">
-                <h3 className="about-subtitle">ABOUT</h3>
+                <h3 className="about-subtitle">ABOUT ME</h3>
                 <hr className="line"/>
                 <p className="about-text">
                     Innovative and task-driven professional with 2 years of experience in web
@@ -22,6 +23,7 @@ const About = props =>
             <img className="img-item" src={codeLamp} alt="Code Lamp" />
             <div className="about-item-right"></div>
         </div>
+        <Timeline />
     </div>
 
 
