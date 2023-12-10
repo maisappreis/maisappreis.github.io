@@ -35,6 +35,18 @@
   /* font-family: 'Roboto Mono', monospace; */
 }
 
+.text-area {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: 0;
+    font-size: 35px;
+}
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
