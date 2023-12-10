@@ -5,7 +5,7 @@
 
 .about-flex {
     display: grid;
-    grid-template-columns: repeat(2, 70%);
+    grid-template-columns: 70% 30%;
     font-family: 'Marcellus', serif, sans-serif; 
     grid-auto-rows: 450px;
     width: 100vw;
