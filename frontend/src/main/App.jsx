@@ -8,7 +8,7 @@ import NavbarWhite from '../components/navbar/NavbarWhite';
 import Home from "../components/home/Home";
 import Footer from "../components/footer/Footer";
 import About from "../components/about/About";
-// import Timeline from "../components/timeline/Timeline";
+import Timeline from "../components/timeline/Timeline";
 import Portfolio from "../components/portfolio/Portfolio";
 import Skills from "../components/skills/Skills";
 import Contacts from "../components/contact/Contacts";
@@ -26,7 +26,7 @@ function App(props) {
           <Portfolio />
           <Skills />
           <About />
-          {/* <Timeline /> */}
+          <Timeline />
           <Contacts />
         </main>
         <Footer />

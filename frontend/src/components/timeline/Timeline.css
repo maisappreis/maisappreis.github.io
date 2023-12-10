@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     row-gap: 20px;
-    width: 90%;
+    width: 100%;
     margin: 40px 0;
 }
 
@@ -53,26 +53,25 @@
     border-right: 3px solid #a0647c;
 }
 
-.curric-item {
-    align-content: center;
-}
-
 .text-right {
     text-align: right;
     padding-right: 30px;
+    margin-left: 110px;
 }
 
 .text-left {
     text-align: left;
     padding-left: 30px;
+    margin-right: 110px;
 }
 
 .item-title {
     padding-bottom: 15px;
-    font-size: 21px;
+    font-size: 23px;
     text-decoration: underline solid #a0647c;
     text-underline-offset: 1rem;
     font-weight: bold;
+    font-family: 'Marcellus', serif, sans-serif;
 }
 
 .item-text {
@@ -98,8 +97,15 @@
     align-items: flex-end;
 }
 
+.flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .list-area {
     list-style: none;
+    padding: 0;
 }
 
 .link-area {

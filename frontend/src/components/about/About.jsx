@@ -2,7 +2,7 @@ import React from "react";
 import "../../main/App.css";
 import "./About.css";
 import codeLamp from "../../assets/code-lamp.png";
-import Timeline from "../timeline/Timeline.jsx";
+
 
 const About = props =>
     <div className="about-area container-fluid" id="about">
@@ -23,7 +23,6 @@ const About = props =>
             <img className="img-item" src={codeLamp} alt="Code Lamp" />
             <div className="about-item-right"></div>
         </div>
-        <Timeline />
     </div>
 
 
