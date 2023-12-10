@@ -26,11 +26,16 @@
     z-index: -1;
   }
 
-.skills-flex {
+.skills-row {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    margin: 40px 0px;
-} 
+    margin: 0px 30px;
+}
