@@ -16,6 +16,7 @@ const Skills = () => {
                     <ProgressBar label="JavaScript" targetProgress={70} />
                 </div>
                 <div className="skills-column">
+                    <ProgressBar label="Git" targetProgress={70} />
                     <ProgressBar label="SQL" targetProgress={65} />
                     <ProgressBar label="Python" targetProgress={60} />
                     <ProgressBar label="Django" targetProgress={50} />
