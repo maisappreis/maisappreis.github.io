@@ -19,7 +19,9 @@ const Contacts = props =>
             </div>
             <div className="contact-item col-xs-12 col-md-6">
                 <img src={phone} alt="Phone" />
-                <span className="text-item">+55 48 9 9603-0183</span>
+                <a href="https://api.whatsapp.com/send?phone=5548996030183&text=Hello,%20Maisa%20How%20are%20you?%20I%20just%20checked%20your%20portfolio%20on%20your%20github%20website%20and%20I%20have%20a%20job%20opportunity%20for%20you." target="_blank" rel="noopener noreferrer" className="text-item">
+                    +55 48 9 9603-0183
+                </a>
             </div>
         </div>
         <div className="contacts-flex">
