@@ -1,0 +1,39 @@
+
+.header-area {
+  grid-area: header;
+}
+
+.gallery-area {
+  grid-area: gallery;
+}
+
+.portfolio-area {
+  grid-area: portfolio;
+}
+
+.skills-area {
+  grid-area: skills;
+}
+
+.about-area {
+  grid-area: about;
+}
+
+.timeline-area {
+  grid-area: timeline;
+}
+
+.contact-area {
+  grid-area: contact;
+}
+
+.footer-area {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-areas: 'header' 'portfolio' 'skills' 'about' 'timeline' 'contact' 'footer';
+  /* grid-template-rows: 80px auto 150px auto 200px auto 100px; */
+  /* min-height: 100vh; */
+}

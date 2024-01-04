@@ -1,0 +1,17 @@
+.footer-area {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    box-shadow: 0 -5px 10px white;
+    font-family: 'Marcellus', serif, sans-serif;
+}
+
+#maisa {
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.heard {
+    color: #c897aa;
+}
