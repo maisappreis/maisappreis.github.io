@@ -2,7 +2,7 @@
     background-color: white;
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
-    width: 450px;
+    width: 35vw;
 
     height: 20px;
     overflow: hidden;
@@ -19,4 +19,10 @@
   height: 20px;
   border-radius: 3px;
   transition: width 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .progress-bar {
+      width: 60vw;
+    }
 }

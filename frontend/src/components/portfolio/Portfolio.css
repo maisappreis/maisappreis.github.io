@@ -61,12 +61,6 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 1300px) {
-    .projects-flex {
-        grid-auto-rows: 25vw;
-    }
-}
-
 .hover-box {
     position: absolute;
     top: 0;
@@ -95,3 +89,10 @@
     opacity: 1;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    .projects-flex {
+        grid-template-columns: repeat(1, 100%);
+        grid-auto-rows: 35vw;
+    }
+}

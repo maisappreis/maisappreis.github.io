@@ -131,44 +131,18 @@
     color: white;
 }
 
-@media screen and (max-width: 1900px) {
-    .curriculum-area {
-        height: 160vh;
-    }
-}
-
-@media screen and (max-width: 1242px) {
-    .curriculum-area {
-        height: 170vh;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    .curriculum-area {
-        height: 200vh;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .curriculum-area {
-        height: 255vh;
-    }
-    .curriculum-subtitle {
-        font-size: 16px;
-    }
+@media screen and (max-width: 1050px) {
     .item-title {
-        font-size: 17px;
+        text-underline-offset: 0.2rem;
     }
-    .item-text {
-        font-size: 16px;
-    }
-}
 
-@media screen and (max-width: 380px) {
-    .curriculum-subtitle {
-        display: none;
+    .text-right {
+        padding-right: 15px;
+        margin-left: 20px;
     }
-    .div-btn {
-        display: none;
+    
+    .text-left {
+        padding-left: 15px;
+        margin-right: 20px;
     }
 }

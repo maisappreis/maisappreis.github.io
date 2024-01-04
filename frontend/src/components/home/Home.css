@@ -37,11 +37,6 @@
     margin-top: 10px;
 }
 
-.subtitle-2 {
-    font-size: 1.7vw;
-    font-family: 'Source Code Pro', monospace;
-}
-
 .img {
     position: absolute;
     top: 0;
@@ -58,9 +53,12 @@
     border: 2px solid white;
 }
 
-@media screen and (max-width: 800px) {
-    .subtitle-1 { font-size: 18px; }
-    .subtitle-2 { font-size: 15px; }
+@media screen and (max-width: 768px) {
+    .website-title {
+        font-size: 10vw;
+    }
+
+    .subtitle-1 { font-size: 20px; }
 }
 
 /*

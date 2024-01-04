@@ -4,7 +4,7 @@
 
 .posit-fixed {
     position: fixed;
-    z-index: 20;
+    z-index: 9;
 }
 
 .bg-white {
@@ -42,7 +42,7 @@
 
 .navbar-title {
     font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
-    width: 500px;
+    width: max-content;
     margin: 0;
     font-size: 35px;
 }
@@ -77,7 +77,7 @@
     text-decoration: none;
 }
 
-.font-black {
+.menu-item {
     color: black;  
     text-decoration: none;
 }
@@ -87,7 +87,7 @@
     text-shadow: 0 0 0.3em #E100FF, 0 0 0.3em #E100FF, 0 0 #E100FF;
 }
 
-.font-black:hover {
+.menu-item:hover {
     color: #a0647c;
 }
 
@@ -97,6 +97,7 @@
 
 .flex-box {
     display: flex;
+    height: 100%;
 }
 
 .around {
@@ -109,69 +110,71 @@
 }
 
 @media screen and (max-width: 800px) {
-
-    .posit-abs {
-        position: fixed;
-        height: 70px;
-    }
-
-    .position {
-        height: 70px;
-    }
-
     .menu-icon {
         display: block;
         position: absolute;
-        top: 5px;
+        top: 0px;
         right: 15px;
         transform: translate(-90%, 25%);
         font-size: 2rem;
         cursor: pointer;
-        color: white;
-    }
-
-    .fa-times {
-        color: #fff;
-        font-size: 2.5rem;
+        color: #2f0036;
+        z-index: 10;
     }
 
     .nav-menu {
+        position: absolute;
+        right: 100%;
+
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 70vh;
-        position: absolute;
-        top: 80px;
-        left: -100%;
-        opacity: 1;
-        transition: all 0.5s ease;
     }
 
     .nav-menu.active {
-        background: #2f0036;
+        background: #a0647c;
         position: absolute;
-        top: 80px;
+        top: 60px;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 6;
         width: 100%;
-        height: 85vh;
+        min-width: 150px;
+        height: 90vh;
         padding: 30px 0px;
     }
 
     .nav-item {
-        height: 80px;
+        height: 120px;
     }
 
-    .font-black .font-white {
+    .nav-item:hover {
+        height: 100px;
+        background: #2f0036;
+        color: white;
+    }
+
+    .menu-item {
         text-align: center;
-        padding: 1rem;
+        padding: 50px 0;
         width: 100%;
         display: table;
+        color: #2f0036;
+        text-decoration: none;
     }
 
-    .font-black:hover .font-white:hover {
-        color: #E100FF;
+    .menu-item:hover {
+        color: white;
+    }
+
+    .navbar-title {
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .flex-box {
+        display: flex;
+        height: 100%;
+        width: 250px;
     }
 }

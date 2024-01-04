@@ -19,13 +19,13 @@
     margin: 20px 0;
 }
 
-.link-area {
-    margin: 0px 15px;
+.link-btn {
+    margin: 15px;
+    text-decoration: none;  
 }
 
 .bttn {
     border: none;
-    text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
     font-size: 18px;
@@ -53,6 +53,19 @@
 
 @media screen and (max-width: 500px) {
     .up-button { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+    .button-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .link-btn {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
