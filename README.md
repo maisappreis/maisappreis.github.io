@@ -1,5 +1,3 @@
-# maisappreis.github.io
-my-website
 # My Github Website
 
 ## My portfolio website developed with JavaScript and React framework.
