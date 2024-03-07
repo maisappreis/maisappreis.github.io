@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8fe86548adebc52bd89a",
-    "url": "/static/css/main.7016e046.chunk.css"
+    "revision": "097b6bf0e8e5286a8db6",
+    "url": "/static/css/main.c00e4c67.chunk.css"
   },
   {
-    "revision": "8fe86548adebc52bd89a",
-    "url": "/static/js/main.a24d6703.chunk.js"
+    "revision": "097b6bf0e8e5286a8db6",
+    "url": "/static/js/main.7deffa81.chunk.js"
   },
   {
     "revision": "3a6d8df43e891d1a2c55",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/dental-clinic.d237a55e.png"
   },
   {
-    "revision": "54389e891c54009087525313db19e2f8",
+    "revision": "6a8d722ee2e49ba4a02769724a345a66",
     "url": "/index.html"
   }
 ];
