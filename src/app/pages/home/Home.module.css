@@ -1,0 +1,14 @@
+.h3 {
+    font-size: 15px;
+}
+
+.h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+}
+
+.img {
+    margin-top: 15px;
+    height: 500px;
+    width: 400px;
+}

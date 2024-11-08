@@ -4,7 +4,7 @@
 
 :root {
   --black-color: black;
-  --gray-dark-color: rgb(58, 58, 58);
+  --gray-dark-color: rgb(31, 29, 31);
   --gray-light-color: rgb(228, 228, 228);
   --red-dark-color: rgb(178, 15, 15);
   --red-light-color: rgb(239, 182, 182);
@@ -17,8 +17,10 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--gray-light-color);
+  background-color: var(--gray-dark-color);
   font-size: 18px;
+  color: white;
+  padding: 50px;
 }
 
 .content {
@@ -32,6 +34,12 @@
   height: 90%;
   background-color: white;
   box-shadow: 2px 2px 20px rgb(148, 148, 148);
+}
+
+.hr-line {
+  margin: 15px;
+  width: 30%;
+  border: 1px solid rgb(158, 154, 157);
 }
 
 /* ----------- Form Styles ------------*/

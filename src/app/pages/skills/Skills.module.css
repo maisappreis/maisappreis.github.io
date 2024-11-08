@@ -1,0 +1,17 @@
+.title {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.box {
+  margin: 0 15px;
+  background-color: #878787;
+  border-radius: 15px;
+
+  padding: 15px;
+  width: 500px;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+}
