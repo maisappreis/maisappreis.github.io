@@ -1,68 +1,68 @@
-# name: setup-node
-# description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
-# runs:
-#   using: "composite"
-#   steps:
-#     - name: Setup Node.js ⚙️
-#       uses: actions/setup-node@v4
-#       with:
-#         node-version: 20
+name: setup-node
+description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js ⚙️
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
 
-#     - name: Cache dependencies ⚡
-#       id: cache_dependencies
-#       uses: actions/cache@v3
-#       with:
-#         path: node_modules
-#         key: node-modules-${{ hashFiles('package-lock.json') }}
+    - name: Cache dependencies ⚡
+      id: cache_dependencies
+      uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('package-lock.json') }}
 
-#     - name: Install dependencies 🔧
-#       shell: bash
-#       if: steps.cache_dependencies.outputs.cache-hit != 'true'
-#       run: npm ci
+    - name: Install dependencies 🔧
+      shell: bash
+      if: steps.cache_dependencies.outputs.cache-hit != 'true'
+      run: npm ci
 
-name: Deploy to GitHub Pages
+# name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
 
-      - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+#       - name: Setup Node.js ⚙️
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
 
-      - name: Cache dependencies ⚡
-        id: cache_dependencies
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
+#       - name: Cache dependencies ⚡
+#         id: cache_dependencies
+#         uses: actions/cache@v3
+#         with:
+#           path: node_modules
+#           key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - name: Install dependencies 🔧
-        run: npm ci
-        if: steps.cache_dependencies.outputs.cache-hit != 'true'
+#       - name: Install dependencies 🔧
+#         run: npm ci
+#         if: steps.cache_dependencies.outputs.cache-hit != 'true'
 
-      - name: Build Project
-        run: npm run build
+#       - name: Build Project
+#         run: npm run build
 
-      - name: Export Project
-        run: npm run export
+#       - name: Export Project
+#         run: npm run export
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out  # Diretório de saída do Next.js
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v3
+#         with:
+#           path: ./out  # Diretório de saída do Next.js
           
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Deploy to GitHub Pages
+#         uses: actions/deploy-pages@v1
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
