@@ -8,7 +8,7 @@ export default function Education() {
       </h1>
       <hr className="hr-line" />
 
-      <div className="flex my-5">
+      <div className="flex my-40">
         <div className={styles.box}>
           <p>2011</p>
           <p>Bacharel Business Administration</p>

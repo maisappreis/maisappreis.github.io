@@ -3,9 +3,9 @@ import { FormEvent, useState } from "react";
 import styles from "./Contact.module.css";
 
 const contacts = [
-  { title: "Email", contact: "maisapierinipreis@gmail.com" },
-  { title: "WhatsApp", contact: "+55 48 9 9603 0183" },
-  { title: "Linkedin", contact: "@maisa-pp-2303" },
+  { name: "Email", contact: "maisapierinipreis@gmail.com" },
+  { name: "WhatsApp", contact: "+55 48 9 9603 0183" },
+  { name: "Linkedin", contact: "@maisa-pp-2303" },
 ]
 
 export default function Contact() {
@@ -34,7 +34,7 @@ export default function Contact() {
         <div className="flex flex-col my-5">
           {contacts.map((contact, index) => (
             <div key={index} className={`${styles.box} flex flex-col justify-center items-center`}>
-              <h5 className={styles.title}>{contact.title}</h5>
+              <h5 className={styles.name}>{contact.name}</h5>
               <p className={styles.contact}>{contact.contact}</p>
             </div>
           ))}
