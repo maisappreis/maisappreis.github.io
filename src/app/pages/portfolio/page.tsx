@@ -1,4 +1,5 @@
 import styles from "./Portfolio.module.css";
+import Image from 'next/image';
 
 export default function Portfolio() {
   return (
@@ -9,14 +10,14 @@ export default function Portfolio() {
       <hr className="hr-line" />
 
       <div className="flex my-5">
-        <img src="/images/dental-clinic.png" alt="dental clinic project " className="max-h-60 mx-2.5" />
-        <img src="/images/gym.png" alt="gym project" className="max-h-60 mx-2.5" />
-        <img src="/images/django.png" alt="django project" className="max-h-60 mx-2.5" />
+        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} />
+        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} />
+        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} />
       </div>
       <div className="flex my-5">
-        <img src="/images/dental-clinic.png" alt="dental clinic project " className="max-h-60 mx-2.5" />
-        <img src="/images/gym.png" alt="gym project" className="max-h-60 mx-2.5" />
-        <img src="/images/django.png" alt="django project" className="max-h-60 mx-2.5" />
+        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} />
+        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} />
+        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} />
       </div>
     </div>
   );
