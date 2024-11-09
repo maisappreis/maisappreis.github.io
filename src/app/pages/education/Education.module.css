@@ -1,0 +1,9 @@
+.box {
+	width: 200px;
+	height: 120px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+
+	transform: skew(-20deg);
+}

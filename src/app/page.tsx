@@ -4,6 +4,8 @@
 import HomePage from "@/app/pages/home/page";
 import Portfolio from "@/app/pages/portfolio/page";
 import Skills from "@/app/pages/skills/page";
+import Education from "@/app/pages/education/page";
+import Contact from "@/app/pages/contact/page";
 // import Header from "@/app/layout/header";
 // import Sidebar from "@/app/layout/sidebar";
 // import Content from "@/app/layout/content";
@@ -21,6 +23,8 @@ export default function Home() {
       <HomePage />
       <Portfolio />
       <Skills />
+      <Education />
+      <Contact />
       {/* <Header selectedOption={selectedOption} />
       <Sidebar onOptionClick={handleOptionClick} />
       <Content selectedOption={selectedOption} />
