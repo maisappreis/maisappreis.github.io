@@ -1,25 +1,20 @@
-# Web Application for a Dental Clinic
+# My Portfolio
 
-Web application developed to manage a dental clinic.
+Website to showcase my work portfolio, skills, education, experience and contact details.
 
 ## Technologies:
 - Next.js
 - React.js
 - TypeScript
-- Django
 
-![image](https://github.com/maisappreis/dental-clinic-web-system/assets/113925909/853387a9-5fe0-44cd-ada2-0d846286dd20)
-
-
-## 🌱 On Frontend Development
+## 🌱 On Development
 
 ### 🛠️ Installation
 ```
-cd frontend
 npm install
 ```
 
-### 🛠️ Running just the Frontend
+### 🛠️ Running
 
 To run the development server in the browser:
 ```
@@ -30,40 +25,6 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
-
-## 🌱 On Backend Development
-
-### 🛠️ Installation
-
-Create a virtual environment
-Activate the virtual environment:
-```
-cd backend
-python -m venv venv
-.\.venv\Scripts\Activate.ps1 (On Windows)
-or
-source venv/bin/activate (On macOS/Linux)
-```
-
-```
-pip install -r requirements.txt
-```
-
-### 🛠️ Running just the backend
-```
-python manage.py runserver
-```
-
-To run migrations:
-```
-python manage.py makemigrations
-python manage.py migrate
-```
-
-# 🛠️ Running both: Frontend and Backend
-```
-npm start
 ```
 
 ## 💻 On Production

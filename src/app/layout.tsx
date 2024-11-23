@@ -5,8 +5,8 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dental Clinic Web System",
-  description: "An ERP system for controlling schedule, revenue, expenses, profits and month-end closing.",
+  title: "My Portfolio",
+  description: "Website to showcase my work portfolio, skills, education, experience and contact details."
 };
 
 export default function RootLayout({
