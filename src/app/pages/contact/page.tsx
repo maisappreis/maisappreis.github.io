@@ -3,9 +3,10 @@ import { FormEvent, useState } from "react";
 import styles from "./Contact.module.css";
 
 const contacts = [
-  { name: "Email", contact: "maisapierinipreis@gmail.com" },
-  { name: "WhatsApp", contact: "+55 48 9 9603 0183" },
-  { name: "Linkedin", contact: "@maisa-pp-2303" },
+  { name: "Email", contact: "maisapierinipreis@gmail.com", url: "" },
+  { name: "WhatsApp", contact: "+55 48 9 9603 0183", url: "https://www.cutt.ly/WhatsApp-Axis3D/" },
+  { name: "Linkedin", contact: "@maisa-pp-2303", url: "https://www.linkedin.com/in/maisa-pp-2303/" },
+  { name: "Github", contact: "@maisappreis", url: "https://github.com/maisappreis" },
 ]
 
 export default function Contact() {
@@ -33,10 +34,16 @@ export default function Contact() {
       <div className="flex">
         <div className="flex flex-col my-5">
           {contacts.map((contact, index) => (
-            <div key={index} className={`${styles.box} flex flex-col justify-center items-center`}>
+            <a 
+              key={index} 
+              href={contact.url} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={`${styles.box} flex flex-col justify-center items-center`}
+            >
               <h5 className={styles.name}>{contact.name}</h5>
               <p className={styles.contact}>{contact.contact}</p>
-            </div>
+            </a>
           ))}
         </div>
 

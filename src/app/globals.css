@@ -11,7 +11,8 @@
   --blue-light-color: rgb(207, 217, 254);
   --blue-dark-color: rgb(1, 32, 144);
   --blue-darker-color: rgb(0, 14, 63);
-  --blue-green-color: rgb(0, 187, 187);
+  --blue-green-light-color: rgb(0, 187, 187);
+  --blue-green-dark-color: rgb(0, 80, 80);
 } 
 
 .app-area {
@@ -27,5 +28,5 @@
 .hr-line {
   margin: 15px;
   width: 30%;
-  border: 1px solid var(--blue-green-color);
+  border: 1px solid var(--blue-green-light-color);
 }
