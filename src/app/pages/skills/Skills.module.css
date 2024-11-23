@@ -3,15 +3,60 @@
   font-size: 30px;
 }
 
+.content {
+  display: flex;
+  margin: 20px 0;
+}
+
 .box {
+  position: relative;
   margin: 0 15px;
-  background-color: #878787;
+  background-color: var(--blue-green-dark-color);
   border-radius: 15px;
 
   padding: 15px;
-  width: 500px;
+  width: 350px;
   height: 500px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: transparent;
+  border: 2px solid var(--blue-green-light-color);
+}
+
+.heading {
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--blue-green-light-color);
+}
+
+.icon {
+  color: var(--blue-green-light-color);
+  font-size: 15px;
+}
+
+.item {
+  margin: 10px 0;
+}
+.years {
+  font-size: 15px;
+  color: var(--blue-green-light-color);
+}
+
+@media only screen and (max-width: 1300px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 15px 0;
+  }
 }

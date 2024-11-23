@@ -1,8 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUsers } from '@fortawesome/free-solid-svg-icons';
-import { faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faBriefcase, faBook, faGraduationCap, faPhone, faStar } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faUsers)
-library.add(faMoneyBillTrendUp)
+library.add(faHouse, faBriefcase, faBook, faGraduationCap, faPhone, faStar)
 
 export { library };

@@ -31,8 +31,8 @@ export default function Contact() {
       </h1>
       <hr className="hr-line" />
 
-      <div className="flex">
-        <div className="flex flex-col my-5">
+      <div className={styles.content}>
+        <div className={`${styles.links} flex flex-col my-5`}>
           {contacts.map((contact, index) => (
             <a 
               key={index} 
@@ -77,10 +77,11 @@ export default function Contact() {
               className={styles.textarea}
               required
             />
-
-            <button type="submit" className={styles.button}>
-              Send Message
-            </button>
+            <div className="flex justify-end">
+              <button type="submit" className={styles.button}>
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
       </div>

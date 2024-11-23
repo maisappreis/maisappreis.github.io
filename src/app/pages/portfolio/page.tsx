@@ -9,15 +9,15 @@ export default function Portfolio() {
       </h1>
       <hr className="hr-line" />
 
-      <div className="flex my-5">
-        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} />
-        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} />
-        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} />
+      <div className={`${styles.content} flex my-5`}>
+        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} priority />
       </div>
-      <div className="flex my-5">
-        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} />
-        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} />
-        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} />
+      <div className={`${styles.content} flex my-5`}>
+        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} priority />
       </div>
     </div>
   );

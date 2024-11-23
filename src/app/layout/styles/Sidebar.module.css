@@ -1,59 +1,84 @@
 
 .sidebar {
-    position: fixed;
-    top: 30vh;
-    left: 50px;
-    width: 80px;
-    height: 300px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50px;
+  width: 80px;
+  height: 300px;
 
-    border-radius: 50px;
-    z-index: 10;
-    background-color: var(--blue-green-color);
+  border-radius: 50px;
+  z-index: 10;
+  background-color: var(--blue-green-light-color);
+}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.list {
+  list-style-type: none;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+}
+
+.option {
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 3px 10px;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option:hover {
+  background-color: var(--blue-green-dark-color);
+}
+
+.selected {
+  background-color: var(--gray-light-color);
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #cfcfcf;
+}
+
+.text {
+  display: inline;
+}
+
+@media only screen and (max-width: 1300px) {
+  .sidebar {
+    top: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 80px;
   }
 
   .list {
-    list-style-type: none;
-    /* padding: 20px; */
-  }
-
-  .icon {
-    color: white;
-    /* margin: 15px 10px; */
+    flex-direction: row;
+    padding: 5px;
   }
 
   .option {
-    cursor: pointer;
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    margin: 10px 3px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    top: 83vh;
+    height: 70px;
   }
 
-  .option:hover {
-    background-color: var(--blue-darker-color);
+  .list {
+    padding: 0;
   }
-
-  .selectedOption {
-    background-color: var(--gray-light-color);
-    color: black;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #cfcfcf;
-  }
-
-  .selectedIcon {
-    color: var(--black-color);
-  }
-
-  .text {
-    display: inline;
-  }
-
-  @media only screen and (max-width: 1300px) {
-    .text {
-        display: none;
-    }
-  }
+}
