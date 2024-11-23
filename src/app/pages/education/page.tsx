@@ -12,7 +12,7 @@ export default function Education() {
         <div className={styles.box}>
           <p className={styles.date}>08/2013 - 07/2017</p>
           <p className={styles.text}>
-            Bachelor's in <strong className={styles.tag}>Bussiness Administration</strong> at State University of Santa Catarina
+            Bachelor&apos;s in <strong className={styles.tag}>Bussiness Administration</strong> at State University of Santa Catarina
             </p>
           <a href="https://drive.google.com/file/d/1CYtbULqZI5X5_3VvFfbjmKbt29E_-qiM/view?usp=drive_link">
             <button className={styles.btn}>
