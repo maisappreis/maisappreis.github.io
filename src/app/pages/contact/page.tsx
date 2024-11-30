@@ -25,7 +25,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center my-5">
+    <div id="contact"
+      className="flex flex-col justify-center items-center my-5">
       <h1 className={styles.title}>
         My Contact
       </h1>

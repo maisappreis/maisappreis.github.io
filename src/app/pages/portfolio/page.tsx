@@ -3,19 +3,20 @@ import Image from 'next/image';
 
 export default function Portfolio() {
   return (
-    <div className="flex flex-col justify-center items-center my-5">
+    <div id="portfolio"
+      className="flex flex-col justify-center items-center my-5">
       <h1 className={styles.title}>
         My Portfolio
       </h1>
       <hr className="hr-line" />
 
       <div className={`${styles.content} flex my-5`}>
-        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/dental-clinic.png" alt="dental clinic project" className="mx-2.5" width={400} height={250} quality={75} priority />
         <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} priority />
         <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} priority />
       </div>
       <div className={`${styles.content} flex my-5`}>
-        <Image src="/images/dental-clinic.png" alt="dental clinic project " className="mx-2.5" width={400} height={250} quality={75} priority />
+        <Image src="/images/dental-clinic.png" alt="dental clinic project" className="mx-2.5" width={400} height={250} quality={75} priority />
         <Image src="/images/gym.png" alt="gym project" className="mx-2.5" width={400} height={250} quality={75} priority />
         <Image src="/images/django.png" alt="django project" className="mx-2.5" width={400} height={250} quality={75} priority />
       </div>

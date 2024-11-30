@@ -29,7 +29,8 @@ const otherSkills = [
 
 export default function Skills() {
   return (
-    <div className="flex flex-col justify-center items-center my-5">
+    <div id="skills"
+      className="flex flex-col justify-center items-center my-5">
       <h1 className={styles.title}>
         My Skills
       </h1>

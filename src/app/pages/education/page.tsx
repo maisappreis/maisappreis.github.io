@@ -2,7 +2,8 @@ import styles from "./Education.module.css";
 
 export default function Education() {
   return (
-    <div className="flex flex-col justify-center items-center my-5">
+    <div id="education"
+      className="flex flex-col justify-center items-center my-5">
       <h1 className={styles.title}>
         My Education
       </h1>
@@ -14,7 +15,9 @@ export default function Education() {
           <p className={styles.text}>
             Bachelor&apos;s in <strong className={styles.tag}>Bussiness Administration</strong> at State University of Santa Catarina
             </p>
-          <a href="https://drive.google.com/file/d/1CYtbULqZI5X5_3VvFfbjmKbt29E_-qiM/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1CYtbULqZI5X5_3VvFfbjmKbt29E_-qiM/view?usp=drive_link"
+            target="_blank" 
+            rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
@@ -26,7 +29,9 @@ export default function Education() {
           <p className={styles.text}>Lato Sensu in <strong className={styles.tag}>
             Software Analysis and Development</strong> at Descomplica College
           </p>
-          <a href="https://drive.google.com/file/d/19htM8iJUn5fGy91Iz17kFtspE9Pa2HKT/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/19htM8iJUn5fGy91Iz17kFtspE9Pa2HKT/view?usp=drive_link"
+            target="_blank" 
+            rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
@@ -38,7 +43,9 @@ export default function Education() {
           <p className={styles.text}>
             Lato Sensu in <strong className={styles.tag}>Data Analysis</strong> at Descomplica College
           </p>
-          <a href="https://drive.google.com/file/d/19kfGpPeIVFdpw2qAjd9lqAhy8G9Bw_pR/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/19kfGpPeIVFdpw2qAjd9lqAhy8G9Bw_pR/view?usp=drive_link"
+            target="_blank" 
+            rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
@@ -50,7 +57,9 @@ export default function Education() {
           <p className={styles.text}>
             Microsoft Certified: <strong className={styles.tag}>Azure Fundamentals</strong>
           </p>
-          <a href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/1e639117d2ba788e">
+          <a href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/1e639117d2ba788e"
+            target="_blank" 
+            rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
@@ -62,7 +71,9 @@ export default function Education() {
           <p className={styles.text}>
             EF SET <strong className={styles.tag}>English Certificate</strong> - B2 Upper Intermediate
           </p>
-          <a href="https://cert.efset.org/aNB4vi">
+          <a href="https://cert.efset.org/aNB4vi"
+            target="_blank" 
+            rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>

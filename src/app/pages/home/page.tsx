@@ -9,7 +9,8 @@ const dancingScript = Dancing_Script({
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div id="home"
+      className="flex flex-col justify-center items-center">
       <h3 className={styles.h3}>
         Hello, I&apos;m
       </h3>
@@ -21,7 +22,9 @@ export default function HomePage() {
         Full Stack Developer
       </h3>
 
-      <Image src="/images/me.png" alt="myself" width={400} height={500} className='mt-4' />
+      <Image src="/images/me.png" alt="myself"
+        width={400} height={500} className="mt-4"
+        />
     </div>
   );
 };

@@ -4,10 +4,11 @@ import { faHouse, faBriefcase, faBook, faGraduationCap, faPhone } from '@fortawe
 import style from "./styles/Sidebar.module.css";
 
 export default function Sidebar() {
-// export default function Sidebar({ onOptionClick }: {onOptionClick: (option: string) => void}) {
-  const handleOptionClick = (option: string) => {
-    console.log(option);
-    // onOptionClick(option);
+  const handleOptionClick = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -15,7 +16,6 @@ export default function Sidebar() {
         <ul className={style.list}>
           <li className={style.option} onClick={() => handleOptionClick("home")}>
             <FontAwesomeIcon icon={faHouse} className={style.icon} />
-            {/* <span className={style.text}>Home</span> */}
           </li>
           <li className={style.option} onClick={() => handleOptionClick("portfolio")}>
             <FontAwesomeIcon icon={faBook} className={style.icon} />
