@@ -1,28 +1,28 @@
 "use client";
-import { FormEvent, useState } from "react";
+// import { FormEvent, useState } from "react";
 import styles from "./Contact.module.css";
 
 const contacts = [
-  { name: "Email", contact: "maisapierinipreis@gmail.com", url: "" },
+  { name: "Email", contact: "maisapierinipreis@gmail.com", url: "https://mail.google.com/" },
   { name: "WhatsApp", contact: "+55 48 9 9603 0183", url: "https://www.cutt.ly/WhatsApp-Axis3D/" },
   { name: "Linkedin", contact: "@maisa-pp-2303", url: "https://www.linkedin.com/in/maisa-pp-2303/" },
-  { name: "Github", contact: "@maisappreis", url: "https://github.com/maisappreis" },
+  { name: "Github", contact: "@maisappreis", url: "https://github.com/maisappreis/" },
 ]
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  // const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Integrar com uma API de e-mail ou serviço de backend para enviar o formulário
-    console.log("Form Data:", formData);
-    // Limpa o formulário após o envio
-    setFormData({ name: "", email: "", message: "" });
-  };
+  // const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   // Integrar com uma API de e-mail ou serviço de backend para enviar o formulário
+  //   console.log("Form Data:", formData);
+  //   // Limpa o formulário após o envio
+  //   setFormData({ name: "", email: "", message: "" });
+  // };
 
   return (
     <div id="contact"
@@ -48,7 +48,7 @@ export default function Contact() {
           ))}
         </div>
 
-        <div className={`${styles.form} flex flex-col`}>
+        {/* <div className={`${styles.form} flex flex-col`}>
           <form onSubmit={handleSubmit} className="w-full">
             <input
               type="text"
@@ -84,7 +84,7 @@ export default function Contact() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
     </div>
   );
