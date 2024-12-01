@@ -14,7 +14,7 @@ const projects = [
     width: 200, height: 180,
     description: "Web Application for a Gym Company",
     demo: "https://maisappreis.github.io/upfit-gym/",
-    code: "https://maisappreis.github.io/dental-clinic/"
+    code: "https://github.com/maisappreis/upfit-project/"
   },
   { src: "/images/django.png",
     alt: "django project",
@@ -27,7 +27,7 @@ const projects = [
     alt: "equipment locator project",
     width: 200, height: 180,
     description: "Web Application to locate equipments",
-    demo: "",
+    demo: "https://maisappreis.github.io/equipment-locator/",
     code: "https://github.com/maisappreis/equipment-locator/"
   },
   { src: "/images/django.png",
