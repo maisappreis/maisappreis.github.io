@@ -23,14 +23,14 @@ const projects = [
     demo: "",
     code: "https://github.com/maisappreis/django-APIs/"
   },
-  { src: "/images/django.png",
+  { src: "/images/locator.png",
     alt: "equipment locator project",
     width: 200, height: 180,
     description: "Web Application to locate equipments",
     demo: "https://maisappreis.github.io/equipment-locator/",
     code: "https://github.com/maisappreis/equipment-locator/"
   },
-  { src: "/images/django.png",
+  { src: "/images/website.png",
     alt: "portfolio website",
     width: 200, height: 180,
     description: "My Portfolio Website",
