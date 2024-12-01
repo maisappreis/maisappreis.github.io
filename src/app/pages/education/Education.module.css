@@ -6,19 +6,21 @@
 .history {
   display: flex;
   justify-content: flex-start;
-  overflow-x: auto;
   margin: 110px 0px;
   padding: 0 50px 0 100px;
-  
   max-width: 100vw;
   height: 300px;
 
-  scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
-  -ms-overflow-style: none; /* Oculta a barra de rolagem no IE/Edge */
+  /* overflow-x: auto; */
+  /* Oculta a barra de rolagem no Firefox */
+  /* scrollbar-width: none; */
+  /* Oculta a barra de rolagem no IE/Edge */
+  /* -ms-overflow-style: none; */
 }
 
 .history::-webkit-scrollbar {
-  display: none; /* Oculta a barra de rolagem no Chrome/Safari */
+  /* Oculta a barra de rolagem no Chrome/Safari */
+  display: none;
 }
 
 .box {
@@ -66,7 +68,7 @@
   .history {
     flex-direction: column;
     margin: 20px 0px;
-    height: 500px;
+    height: fit-content;
   }
 
   .box {
