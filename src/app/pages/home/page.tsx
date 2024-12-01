@@ -9,7 +9,7 @@ const dancingScript = Dancing_Script({
 
 export default function HomePage() {
   return (
-    <div id="home"
+    <div
       className="flex flex-col justify-center items-center">
       <h3 className={styles.h3}>
         Hello, I&apos;m

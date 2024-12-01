@@ -55,7 +55,7 @@
   background-color: var(--blue-green-dark-color);
   color: #fff;
   padding: 3px 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .btn:hover {

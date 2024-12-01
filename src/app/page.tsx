@@ -8,7 +8,8 @@ import Sidebar from "./layout/sidebar";
 
 export default function Home() {
   return (
-    <main className="app-area">
+    <main id="home"
+      className="app-area">
       <HomePage />
       <Portfolio />
       <Skills />

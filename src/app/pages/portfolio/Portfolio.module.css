@@ -3,8 +3,51 @@
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1300px) {
-  .content {
-    flex-direction: column;
-  }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.box {
+  height: 300px;
+  width: 380px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--blue-green-dark-color);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.box:hover {
+  background-color: transparent;
+  border: 2px solid var(--blue-green-light-color);
+}
+
+.image {
+  width: 100%;
+  max-height: 180px;
+  border-radius: 20px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: var(--blue-green-light-color);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(--blue-green-dark-color);
 }
