@@ -50,9 +50,8 @@ export default function Portfolio() {
 
       <div className={styles.content}>
         {projects.map((project, index) => (
-          <div className={styles.box}>
+          <div key={index} className={styles.box}>
             <Image
-              key={`${index}`}
               src={project.src}
               alt={project.alt}
               className={styles.image}
