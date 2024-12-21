@@ -8,10 +8,10 @@ const frontendSkills = [
   { tech: "Javascript", years: "+2 years"},
   { tech: "Vue.js", years: "+2 years"},
   { tech: "React", years: "+2 years"},
-  { tech: "Typescript", years: "+1 years"},
-  { tech: "Next.js", years: "+1 years"},
-  { tech: "Bootstrap", years: "+1 years"},
-  { tech: "Tailwindcss", years: "+1 years"},
+  { tech: "Typescript", years: "+1 year"},
+  { tech: "Next.js", years: "+1 year"},
+  { tech: "Bootstrap", years: "+1 year"},
+  { tech: "Tailwindcss", years: "+1 year"},
 ];
 
 const backendSkills = [
