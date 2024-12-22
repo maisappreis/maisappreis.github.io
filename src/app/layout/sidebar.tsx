@@ -14,7 +14,7 @@ const navItens = [
 ];
 
 export default function Sidebar() {
-  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [selectedOption, setSelectedOption] = useState<string>("home");
 
   const handleOptionClick = (sectionId: string) => {
     setSelectedOption(sectionId);
