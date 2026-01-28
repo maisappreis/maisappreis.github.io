@@ -3,15 +3,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const frontendSkills = [
-  { tech: "HTML", years: "+2 years"},
-  { tech: "CSS", years: "+2 years"},
-  { tech: "Javascript", years: "+2 years"},
-  { tech: "Vue.js", years: "+2 years"},
+  { tech: "Vue.js", years: "+3 years"},
+  { tech: "Javascript", years: "+3 years"},
+  { tech: "HTML", years: "+3 years"},
+  { tech: "CSS", years: "+3 years"},
+  { tech: "Typescript", years: "+2 year"},
   { tech: "React", years: "+2 years"},
-  { tech: "Typescript", years: "+1 year"},
-  { tech: "Next.js", years: "+1 year"},
-  { tech: "Bootstrap", years: "+1 year"},
-  { tech: "Tailwindcss", years: "+1 year"},
+  { tech: "Bootstrap", years: "+2 year"},
+  { tech: "Tailwindcss", years: "+2 year"},
+  { tech: "Next.js", years: "-1 year"},
+  { tech: "Nuxt", years: "-1 year"},
 ];
 
 const backendSkills = [
@@ -22,7 +23,7 @@ const backendSkills = [
 ];
 
 const otherSkills = [
-  { tech: "Git", years: "+2 years"},
+  { tech: "Git", years: "+3 years"},
   { tech: "English", years: "B2 - Upper Intermediate"},
   { tech: "Portuguese", years: "Native"},
 ];
@@ -38,7 +39,7 @@ export default function Skills() {
 
       <div className={styles.content}>
         <div className={styles.box}>
-          <h3 className={styles.heading}>Front-end</h3>
+          <h3 className={styles.heading}>Frontend</h3>
           <div className="flex flex-col">
             <ul>
               {frontendSkills.map((skill, index) => (
@@ -52,7 +53,7 @@ export default function Skills() {
           </div>
         </div>
         <div className={styles.box}>
-          <h3 className={styles.heading}>Back-end</h3>
+          <h3 className={styles.heading}>Backend</h3>
           <div className="flex flex-col">
             <ul>
               {backendSkills.map((skill, index) => (

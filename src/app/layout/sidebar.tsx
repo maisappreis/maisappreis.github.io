@@ -2,12 +2,13 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faBriefcase, faBook,
-  faGraduationCap, faPhone } from '@fortawesome/free-solid-svg-icons';
+  faGraduationCap, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
 import style from "./styles/Sidebar.module.css";
 
 const navItens = [
   { id: "home", icon: faHouse },
   { id: "portfolio", icon: faBook },
+  { id: "about", icon: faUser },
   { id: "skills", icon: faBriefcase },
   { id: "education", icon: faGraduationCap },
   { id: "contact", icon: faPhone },

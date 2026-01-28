@@ -19,7 +19,7 @@ export default function HomePage() {
       </h1>
       <hr className="hr-line" />
       <h3 className={styles.h3}>
-        Full Stack Developer
+        Frontend‑focused Full Stack Developer
       </h3>
 
       <Image src="/images/me.png" alt="myself"

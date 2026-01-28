@@ -11,7 +11,7 @@
 }
 
 .box {
-  height: 320px;
+  height: 350px;
   width: 350px;
   margin: 15px;
   padding: 10px;
@@ -30,6 +30,11 @@
   width: 100%;
   max-height: 180px;
   border-radius: 20px;
+}
+
+.tech {
+  font-size: 16px;
+  text-align: center;
 }
 
 .buttons {
