@@ -32,7 +32,7 @@ export default function Portfolio() {
   return (
     <div id="portfolio"
       className="flex flex-col justify-center items-center my-5">
-      <h1 className={styles.title}>
+      <h1 className="title">
         My Portfolio
       </h1>
       <hr className="hr-line" />
@@ -50,7 +50,7 @@ export default function Portfolio() {
               priority
             />
             <p className="mt-4 mb-2 text-center font-bold">{project.description}</p>
-            <p className={styles.tech}>{project.tech}</p>
+            <p className="text-center text-[15px]">{project.tech}</p>
             <div className={styles.buttons}>
               {project.demo && (
                 <a 

@@ -32,7 +32,7 @@ export default function Skills() {
   return (
     <div id="skills"
       className="flex flex-col justify-center items-center my-5">
-      <h1 className={styles.title}>
+      <h1 className="title">
         My Skills
       </h1>
       <hr className="hr-line" />
@@ -40,10 +40,10 @@ export default function Skills() {
       <div className={styles.content}>
         <div className={styles.box}>
           <h3 className={styles.heading}>Frontend</h3>
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-5">
             <ul>
               {frontendSkills.map((skill, index) => (
-                <li key={index} className={styles.item}>
+                <li key={index} className="my-2">
                   <FontAwesomeIcon className={styles.icon} icon={faStar} />
                   <strong className="mr-3 ml-3">{skill.tech}</strong>
                   <span className={styles.years}>{skill.years}</span>
@@ -57,7 +57,7 @@ export default function Skills() {
           <div className="flex flex-col">
             <ul>
               {backendSkills.map((skill, index) => (
-                <li key={index} className={styles.item}>
+                <li key={index} className="my-2">
                   <FontAwesomeIcon className={styles.icon} icon={faStar} />
                   <strong className="mr-3 ml-3">{skill.tech}</strong>
                   <span className={styles.years}>{skill.years}</span>
@@ -71,7 +71,7 @@ export default function Skills() {
           <div className="flex flex-col">
             <ul>
               {otherSkills.map((skill, index) => (
-                <li key={index} className={styles.item}>
+                <li key={index} className="my-2">
                   <FontAwesomeIcon className={styles.icon} icon={faStar} />
                   <strong className="mr-3 ml-3">{skill.tech}</strong>
                   <span className={styles.years}>{skill.years}</span>

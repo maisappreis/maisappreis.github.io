@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div id="about"
       className="flex flex-col justify-center items-center my-5">
-      <h1 className={styles.title}>
+      <h1 className="title">
         About Me
       </h1>
       <hr className="hr-line" />

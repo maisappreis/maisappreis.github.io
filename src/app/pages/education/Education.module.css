@@ -1,8 +1,3 @@
-.title {
-  margin-top: 30px;
-  font-size: 30px;
-}
-
 .history {
   display: flex;
   justify-content: flex-start;
@@ -10,16 +5,9 @@
   padding: 0 50px 0 100px;
   max-width: 100vw;
   height: 300px;
-
-  /* overflow-x: auto; */
-  /* Oculta a barra de rolagem no Firefox */
-  /* scrollbar-width: none; */
-  /* Oculta a barra de rolagem no IE/Edge */
-  /* -ms-overflow-style: none; */
 }
 
 .history::-webkit-scrollbar {
-  /* Oculta a barra de rolagem no Chrome/Safari */
   display: none;
 }
 
@@ -40,14 +28,6 @@
 
 .text {
   color: var(--blue-green-light-color);
-}
-
-.date {
-  margin-bottom: 10px;
-}
-
-.tag {
-  color: white;
 }
 
 .btn {
