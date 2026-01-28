@@ -1,22 +1,58 @@
-# My Portfolio
+# Portfolio
 
-Website to showcase my work portfolio, skills, education, experience and contact details.
+> Personal portfolio showcasing professional projects, technical skills, and experience as a Frontend Engineer with full-stack background.
 
-## Technologies:
-- Next.js
-- React.js
-- TypeScript
+🌐 **Live demo:** https://maisappreis.github.io/
 
-## 🌱 On Development
+---
 
-### 🛠️ Installation
+## ✨ Overview
+
+This project is my personal portfolio website, built to present selected production-level projects, highlight my primary tech stack, and provide an overview of my professional experience and contact information.
+
+The focus is on:
+- Clean, maintainable frontend architecture  
+- Performance and SEO with Next.js  
+- Modern React patterns with TypeScript  
+
+---
+
+## 🧩 Main Features
+
+- Responsive layout for desktop and mobile  
+- Project showcase with external links  
+- Professional summary and technical stack  
+- Optimized build with Next.js  
+- Deployed and publicly accessible via GitHub Pages  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js  
+- React.js  
+- TypeScript  
+
+### Tooling & Practices
+- ESLint & Prettier  
+- Modular component architecture  
+- Modern React hooks and patterns  
+
+---
+
+## 📦 Getting Started
+
+### Installation
+
 ```
 npm install
 ```
 
-### 🛠️ Running
+### Development
 
-To run the development server in the browser:
+Run the development server:
+
 ```
 npm run dev
 # or
@@ -27,22 +63,61 @@ pnpm dev
 bun dev
 ```
 
-## 💻 On Production
+The app will be available at:
+```
+http://localhost:3000
+```
+
+---
+
+## 🏗️ Build & Production
+
+Build the production version:
 ```
 npm run build
 ```
 
-## Learn More
+Run the production server locally:
+```
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is deployed using GitHub Pages.
 
-## Deploy on Vercel
+Recommended alternative for production deployments:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Vercel (native Next.js support)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Official docs:
+
+- https://nextjs.org/docs/deployment
+
+---
+
+## 📈 Roadmap: Planned Improvements
+
+- Add automated tests
+- Improve Lighthouse performance score
+- Add internationalization (i18n)
+- Add analytics and monitoring
+
+---
+
+## 👩‍💻 Author
+
+Maisa Pierini Preis
+Frontend‑focused Full Stack Developer
+
+- GitHub: https://github.com/maisappreis
+- LinkedIn: https://www.linkedin.com/
+- Portfolio: https://maisappreis.github.io/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
