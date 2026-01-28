@@ -18,7 +18,7 @@ export default function HomePage() {
         Maisa Pierini Preis
       </h1>
       <hr className="hr-line" />
-      <h3 className="text-[15px]">
+      <h3 className="text-[15px] text-center">
         Frontend‑focused Full Stack Developer
       </h3>
 

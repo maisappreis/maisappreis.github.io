@@ -21,7 +21,7 @@ const projects = [
   { src: "/images/django.png",
     alt: "django project",
     width: 200, height: 180,
-    description: "Django's REST API for serving front-end applications.",
+    description: "Django's REST API for serving frontend applications.",
     tech: "Django with Python",
     demo: "",
     code: "https://github.com/maisappreis/django-APIs/"
