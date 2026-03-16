@@ -110,10 +110,11 @@ Official docs:
 ## 👩‍💻 Author
 
 Maisa Pierini Preis
+
 Frontend‑focused Full Stack Developer
 
 - GitHub: https://github.com/maisappreis
-- LinkedIn: https://www.linkedin.com/
+- LinkedIn: https://www.linkedin.com/in/maisa-pp-2303/
 - Portfolio: https://maisappreis.github.io/
 
 ---
