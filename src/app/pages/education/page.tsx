@@ -81,7 +81,7 @@ export default function Education() {
         </div>
 
         <div className={styles.box}>
-          <p className="mb-3">08/2013 - 07/2017</p>
+          <p className="mb-3">02/2026 - 11/2029</p>
           <p className={styles.text}>
             Bachelor&apos;s in <strong className="text-white">Software Engineer</strong> at Estácio de Sá University
             </p>
