@@ -15,13 +15,13 @@ export default function Education() {
           <p className={styles.text}>
             Bachelor&apos;s in <strong className="text-white">Bussiness Administration</strong> at State University of Santa Catarina
             </p>
-          <a href="https://drive.google.com/file/d/1CYtbULqZI5X5_3VvFfbjmKbt29E_-qiM/view?usp=drive_link"
+          {/* <a href=""
             target="_blank" 
             rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
-          </a>
+          </a> */}
         </div>
 
         <div className={`${styles.box} mt-10 mr-8`}>
@@ -29,21 +29,35 @@ export default function Education() {
           <p className={styles.text}>Lato Sensu in <strong className="text-white">
             Software Analysis and Development</strong> at Descomplica College
           </p>
-          <a href="https://drive.google.com/file/d/19htM8iJUn5fGy91Iz17kFtspE9Pa2HKT/view?usp=drive_link"
+          {/* <a href=""
+            target="_blank" 
+            rel="noopener noreferrer">
+            <button className={styles.btn}>
+              See certificate
+            </button>
+          </a> */}
+        </div>
+
+        {/* <div className={styles.box}>
+          <p className="mb-3">06/2022 - 02/2023</p>
+          <p className={styles.text}>
+            Lato Sensu in <strong className="text-white">Data Analysis</strong> at Descomplica College
+          </p>
+          <a href=""
             target="_blank" 
             rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
           </a>
-        </div>
+        </div> */}
 
-        <div className={styles.box}>
-          <p className="mb-3">06/2022 - 02/2023</p>
+        <div className={`${styles.box}`}>
+          <p className="mb-3">Since 07/2024</p>
           <p className={styles.text}>
-            Lato Sensu in <strong className="text-white">Data Analysis</strong> at Descomplica College
+            Microsoft Certified: <strong className="text-white">Azure Fundamentals</strong>
           </p>
-          <a href="https://drive.google.com/file/d/19kfGpPeIVFdpw2qAjd9lqAhy8G9Bw_pR/view?usp=drive_link"
+          <a href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/1e639117d2ba788e?ref=https%3A%2F%2Fwww.linkedin.com%2F"
             target="_blank" 
             rel="noopener noreferrer">
             <button className={styles.btn}>
@@ -53,11 +67,11 @@ export default function Education() {
         </div>
 
         <div className={`${styles.box} mt-10 mr-8`}>
-          <p className="mb-3">Since 07/2024</p>
+          <p className="mb-3">Since 09/2024</p>
           <p className={styles.text}>
-            Microsoft Certified: <strong className="text-white">Azure Fundamentals</strong>
+            EF SET <strong className="text-white">English Certificate</strong> - B2 Upper Intermediate
           </p>
-          <a href="https://learn.microsoft.com/pt-br/users/maisapierinipreis-4177/credentials/1e639117d2ba788e"
+          <a href="https://cert.efset.org/en/abFKHD"
             target="_blank" 
             rel="noopener noreferrer">
             <button className={styles.btn}>
@@ -67,17 +81,17 @@ export default function Education() {
         </div>
 
         <div className={styles.box}>
-          <p className="mb-3">Since 09/2024</p>
+          <p className="mb-3">08/2013 - 07/2017</p>
           <p className={styles.text}>
-            EF SET <strong className="text-white">English Certificate</strong> - B2 Upper Intermediate
-          </p>
-          <a href="https://cert.efset.org/aNB4vi"
+            Bachelor&apos;s in <strong className="text-white">Software Engineer</strong> at Estácio de Sá University
+            </p>
+          {/* <a href=""
             target="_blank" 
             rel="noopener noreferrer">
             <button className={styles.btn}>
               See certificate
             </button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

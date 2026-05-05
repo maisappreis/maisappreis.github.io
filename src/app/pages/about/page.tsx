@@ -11,13 +11,17 @@ export default function Skills() {
 
       <div className={styles.content}>
         <p className="text-center mx-30 whitespace-pre-line">
-          {`Frontend Engineer with 3+ years of experience specializing in Vue.js and modern frontend development.
-          Strong expertise in Vue 3, TypeScript, state management and frontend architecture, with React as a second core stack.
+          {`Frontend Developer with over 3 years of experience building modern web applications
+          using JavaScript and TypeScript. I work with frameworks such as Vue.js and React, developing
+          responsive, scalable, and component-based interfaces.
 
-          Fullstack background with solid experience building and integrating REST APIs using Django, including
-          authentication, permissions, database and production deployments.
+          I have solid experience in frontend architecture, state management, and REST API integration,
+          including authentication, error handling, and application layering. I also have full-stack
+          experience with Django and Python, having worked on API development, database modeling, and
+          implementation of core business logic.
 
-          Focused on building scalable, maintainable products and working with remote-first teams.`}
+          I work in agile environments, collaborating with cross-functional teams to deliver continuous
+          value, with a strong focus on code quality, maintainability, and long-term scalability of applications.`}
         </p>
       </div>
     </div>

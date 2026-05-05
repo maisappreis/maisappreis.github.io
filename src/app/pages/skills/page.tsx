@@ -4,11 +4,11 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const frontendSkills = [
   { tech: "Vue.js", years: "+3 years"},
+  { tech: "React", years: "+3 years"},
   { tech: "Javascript", years: "+3 years"},
+  { tech: "Typescript", years: "+3 year"},
   { tech: "HTML", years: "+3 years"},
   { tech: "CSS", years: "+3 years"},
-  { tech: "Typescript", years: "+2 year"},
-  { tech: "React", years: "+2 years"},
   { tech: "Bootstrap", years: "+2 year"},
   { tech: "Tailwindcss", years: "+2 year"},
   { tech: "Next.js", years: "-1 year"},
@@ -16,14 +16,15 @@ const frontendSkills = [
 ];
 
 const backendSkills = [
-  { tech: "Python", years: "+2 years"},
-  { tech: "Django", years: "+2 years"},
+  { tech: "Python", years: "+3 years"},
+  { tech: "Django", years: "+3 years"},
+  { tech: "SQL", years: "+3 years"},
   { tech: "PostgreSQL", years: "+2 years"},
-  { tech: "SQL", years: "+2 years"},
 ];
 
 const otherSkills = [
   { tech: "Git", years: "+3 years"},
+  { tech: "CI/CD", years: "+3 years"},
   { tech: "English", years: "B2 - Upper Intermediate"},
   { tech: "Portuguese", years: "Native"},
 ];
